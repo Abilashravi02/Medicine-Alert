@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#3EB489"
+
+    tools:context="com.example.a91962.medicinealert.Setuserdetails"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timg"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+
+            <Button
+                android:id="@+id/sin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/angle"
+                android:text="Sign In"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:padding="16dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="28dp"
+                android:layout_marginTop="32dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="166dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:text="USER  REGISTRATION"
+            android:fontFamily="serif"
+            android:background="#FF4081"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:textColorHint="#ADCCE2"
+            android:textColor="#ADCCE2"
+            android:inputType="text"
+            android:background="#0000"
+            android:padding="16dp"
+            android:drawableRight="@drawable/user"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#ADCCE2"
+            android:inputType="textPassword"
+            android:textColor="#ADCCE2"
+            android:maxLength="12"
+            android:background="#0000"
+            android:padding="16dp"
+            android:drawableRight="@drawable/pasword"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:textColorHint="#ADCCE2"
+            android:textColor="#ADCCE2"
+            android:inputType="text"
+            android:background="#0000"
+            android:padding="16dp"
+            android:drawableRight="@drawable/user"
+            android:layout_below="@+id/editText7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:fontFamily="serif"
+            android:textSize="30dp"
+            android:textColorHint="#ADCCE2"
+            android:textColor="#ADCCE2"
+            android:inputType="text"
+            android:background="#0000"
+            android:padding="16dp"
+            android:drawableRight="@drawable/user"
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEDBD0"
+    tools:context="com.example.a91962.medicinealert.userpage">
+
+    <Button
+        android:id="@+id/button8"
+        android:background="@drawable/btn_login_reg_design"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Emergency Contact"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/b1"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignRight="@+id/b1"
+        android:layout_alignEnd="@+id/b1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/btn_login_reg_design"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Logout "
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_alignRight="@+id/button8"
+        android:layout_alignEnd="@+id/button8" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login_reg_design"
+        android:textColor="#ffff"
+
+        android:text="  Set medicine Remainder  "
+
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginStart="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="  Remove Contact "
+        android:background="@drawable/btn_login_reg_design"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/button8"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_alignRight="@+id/button8"
+        android:layout_alignEnd="@+id/button8" />
+</RelativeLayout>
